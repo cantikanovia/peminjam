@@ -15,8 +15,8 @@ class HomeView extends GetView<HomeController> {
       body: Center(
         child: Column(
           children: [
-            ElevatedButton(onPressed: ()=>Get.toNamed(Routes.BOOK), child: Text("Buku")),
-            ElevatedButton(onPressed: ()=>Get.toNamed(Routes.ADD_PEMINJAMAN), child: Text("Peminjaman")),
+            ElevatedButton(onPressed: ()=>Get.toNamed(Routes.BOOK), child: Text("List Buku")),
+            ElevatedButton(onPressed: ()=>Get.toNamed(Routes.ADD_PEMINJAMAN), child: Text("List Peminjaman")),
           ],
         ),
       ),
